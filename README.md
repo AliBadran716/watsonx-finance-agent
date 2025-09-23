@@ -3,6 +3,8 @@
 An AI-powered financial assistant that combines **IBM Watsonx**, **LangChain**, and **Gradio** to deliver real-time stock analysis, finance news, and intelligent market insights.  
 The agent uses multiple tools (DuckDuckGo, Yahoo Finance, yFinance) with conversational memory, and is accessible via both CLI and a Gradio web app.
 
+![Finance Agent](Finance%20Agent.png)
+
 ---
 
 ## 🚀 Features
