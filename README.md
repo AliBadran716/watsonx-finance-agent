@@ -24,7 +24,7 @@ git clone https://github.com/your-username/watsonx-finance-agent.git
 cd watsonx-finance-agent
 pip install -r requirements.txt
 ```
-⚙️ Environment Setup
+## ⚙️ Environment Setup
 Create a .env file in the root folder with the following keys:
 
 ```env
@@ -34,7 +34,7 @@ WATSONX_MODEL_ID=your_model_id
 WATSONX_URL=your_watsonx_url
 LANGSMITH_API_KEY=your_langsmith_api_key
 ```
-▶️ Usage
+## ▶️ Usage
 Run in CLI mode:
 ```bash
 python ai_finance_agent.py
@@ -45,7 +45,7 @@ python app.py
 ```
 This will launch a local app at http://127.0.0.1:7860.
 
-📊 Prompt (LangSmith)
+## 📊 Prompt (LangSmith)
 The agent uses a structured financial analysis prompt with:
 
 Systematic tool usage
@@ -56,7 +56,7 @@ Bear/Base/Bull case scenarios
 
 Risk & recommendation reporting
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 IBM Watsonx AI (foundation models)
 
 LangChain + LangSmith
@@ -67,8 +67,8 @@ DuckDuckGo Search API
 
 Gradio for UI
 
-🤝 Contributing
+## 🤝 Contributing
 PRs and issues are welcome! Please open a discussion for major changes before submitting.
 
-📄 License
+## 📄 License
 MIT License
